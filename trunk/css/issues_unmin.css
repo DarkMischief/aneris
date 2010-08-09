@@ -1,0 +1,123 @@
+.bold           	{font-weight:bold}
+.tan            	{background-color:#d2b48c}
+.plain          	{background-color:#ffffff}
+.bigger        		{font-size:1.25em}
+.left				{text-align:left}
+.right				{text-align:right}
+.small-indent		{text-indent:3em}
+.top-pad			{padding-top:0.5em}
+.bottom-pad			{padding-bottom:1em}
+.small-pad			{padding-left:3em}
+.italic 			{font-style:italic}
+.left-indent		{margin-left:3em}
+.login-box			{width:50%;}
+.auto-center		{margin-left:auto;margin-right:auto}
+.outer-border		{border:1px black solid}
+.description-text 	{width:50%;padding-left:3em}
+.no-decor			{text-decoration:none}
+a.field				{color:#000000}
+a.field:active		{color:#000000}
+a.field:visited		{color:#000000}
+.view-button		{width:5%}
+.owner-cell			{width:5%}
+.complete-button	{width:5%}
+.delete-button		{width:5%}
+.pending-button		{width:5%}
+.incomplete-button	{width:5%}
+.title-cell			{width:15%}
+.timestamp-cell		{width:15%}
+.status-cell		{width:7.5%}
+.complete-status    {background-color:#00cd66}
+.incomplete-status  {background-color:#f5782a}
+.pending-status     {background-color:#ffc125}
+
+table.center
+{
+	margin-left:auto;
+	margin-right:auto;
+	border-collapse:separate
+}
+
+body
+{
+    text-align:center;
+    font-family:helvetica,tahoma,sans-serif;
+    font-size:0.8em
+}
+
+table td
+{
+	padding:5px 5px 5px 5px
+}
+
+.issue-row:hover
+{
+	cursor:pointer;
+	background-color:#9fb6cd
+}
+
+.issue-row:active
+{
+	cursor:pointer;
+	background-color:#8ea5bc
+}
+
+.view-button:hover
+{
+	cursor:pointer;
+	background-color:#959a68;
+}
+
+.view-button:active
+{
+    cursor:pointer;
+	background-color:#848957
+}
+
+.complete-button:hover
+{
+	cursor:pointer;
+	background-color:#00cd66
+}
+
+.complete-button:active
+{
+    cursor:pointer;
+	background-color:#00bc55
+}
+
+.delete-button:hover
+{
+	cursor:pointer;
+	background-color:#f08080
+}
+
+.delete-button:active
+{
+    cursor:pointer;
+    background-color:#e07070
+}
+
+.pending-button:hover
+{
+    cursor:pointer;
+    background-color:#ffc125
+}
+
+.pending-button:active
+{
+    cursor:pointer;
+    background-color:#eeb014
+}
+
+.incomplete-button:hover
+{
+    cursor:pointer;
+    background-color:#f5782a
+}
+
+.incomplete-button:active
+{
+    cursor:pointer;
+    background-color:#e46819
+}
